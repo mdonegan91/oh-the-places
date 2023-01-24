@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Oh The Places You'll Go</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>The Places You've Been</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <hr>
+                <h2>Add a City:</h2>
+                <form id="new-city">
+                    <div class="form-group">
+                        <label for="new-city">City</label>
+                        <input type="text" class="form-control" id="new-city" name="new-city">
+                    </div>
+                    <div class="form-group">
+                        <label for="new-poi">POI</label>
+                        <input type="text" class="form-control" id="new-poi" name="new-poi">
+                    </div>
+                    <div class="form-group">
+                        <label for="new-best-season">Best Season</label>
+                        <input type="text" class="form-control" id="new-best-season" name="new-best-season">
+                    </div>
+                    <button type="submit" class="btn-primary">Add</button>
+                </form>
+                <hr>
+                <h2>Cities:</h2>
+                <div id="cities">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="city-details" class="hidden">
+                    <h2>City Details:</h2>
+                    <p>City: <span class="city"></span></p>
+                    <p>POI: <span class="poi"></span></p>
+                    <p>Best Season: <span class="best-season"></span></p>
+                    <button class="btn-primary delete" type="button">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
