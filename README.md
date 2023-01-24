@@ -28,7 +28,7 @@ _A website where you can keep track of all the places you've been._
 
 * _MIT_
 
-Copyright (c) _2023_ _Molly Donegan_
+Copyright (c) _2023_ _Molly Donegan and Noah Atkinson_
 
 
 
